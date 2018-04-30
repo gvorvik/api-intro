@@ -1,0 +1,6 @@
+API - application programming interface
+
+In this case an api is basically another person's/organizations's server
+This is a web API
+
+Mongoose API is referring to how we interact with the program and thus is not a web API
