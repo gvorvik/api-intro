@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,10 @@
     <script src="scripts/client.js"></script>
     <title>API Intro</title>
 </head>
-<body ng-app="APIApp" ng-controller="APIAppController">
+
+<body ng-app="APIApp" ng-controller="APIAppController as vm">
     <h1>API Intro</h1>
+    <h3>{{vm.message}}</h3>
 </body>
+
 </html>
